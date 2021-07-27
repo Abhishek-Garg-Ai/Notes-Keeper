@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/speechTextBtn"
+        android:title="Speech to Text" />
+    <item
+        android:id="@+id/textDetectionBtn"
+        android:title="Scan Text" />
+    <item
+        android:id="@+id/readPdfBtn"
+        android:title="Read PDF" />
+</menu>

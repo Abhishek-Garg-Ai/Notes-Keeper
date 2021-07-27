@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/exportBtn"
+        android:title="Export">
+        <menu>
+            <item
+                android:id="@+id/exportTxtBtn"
+                android:title="Text File" />
+            <item
+                android:id="@+id/exportPdfBtn"
+                android:title="PDF File" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/shareBtn"
+        android:title="Share" >
+        <menu >
+            <item
+                android:id="@+id/shareTxtBtn"
+                android:title="Share Text" />
+            <item
+                android:id="@+id/sharePdfBtn"
+                android:title="Share PDF" />
+        </menu>
+    </item>
+
+</menu>
